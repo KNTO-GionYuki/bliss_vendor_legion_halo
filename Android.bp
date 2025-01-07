@@ -11,7 +11,7 @@ cc_prebuilt_library_shared {
     },
     target :{
         android_arm64: {
-        srcs: ["lib64proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
+        srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
         },
     },
     compile_multilib: "64",
