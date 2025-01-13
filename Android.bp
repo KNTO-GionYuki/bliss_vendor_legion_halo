@@ -53,3 +53,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+
+dex_import {
+    name: "WfdCommon",
+    owner: "legion",
+    jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
